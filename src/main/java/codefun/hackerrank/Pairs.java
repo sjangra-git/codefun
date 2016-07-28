@@ -5,7 +5,9 @@ import java.util.*;
 import java.io.*;
 import java.util.*;
 
+// https://www.hackerrank.com/challenges/pairs
 public class Pairs {
+
 
   public static void main(String[] args) 
   {

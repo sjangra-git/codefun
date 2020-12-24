@@ -1,11 +1,11 @@
-package codefun;
+package codefun.leetcode;
 
 
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Stack;
 
-public class Worksheet {
+public class ValidParenthesis {
 
 	public static void main(String[] args) {
 

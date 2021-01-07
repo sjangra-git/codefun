@@ -1,6 +1,6 @@
-package codefun;
+package codefun.leetcode;
 
-public class Worksheet {
+public class ReverseInteger {
 
 	public static void main(String[] args) {
 		int x = Integer.MIN_VALUE;
@@ -11,7 +11,7 @@ public class Worksheet {
 	public static int reverse(int x) {
 		int revInt = 0;
 
-		// Lesson: Math.abs of Integer.MIN is also negative. Because it exceeds 32 bit range.
+		// Lesson: Math.abs of Integer.MIN is also negative. Because it exceeds 32 bit range. 
 		if(x == Integer.MIN_VALUE || x == Integer.MAX_VALUE) return 0;
 
 		// Get absolute value
